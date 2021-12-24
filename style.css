@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    width: 700px;
+   margin: auto;
+}
+h2{
+    text-align: center;
+    background: seagreen;
+    color: white;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.team {  
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;   
+    flex-wrap: wrap;    
+    justify-content: center;
+    justify-items: center;
+
+}
+
+.team .team-item{
+   
+     width: 33.33%;
+     margin-bottom: 10px;
+}
+.team .team-item img{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50px;
+}
+/* 
+student css
+*/
+
+.students{  
+    text-align: center;
+    margin-bottom: 10px;
+    display: flex;   
+    flex-wrap: wrap;    
+    justify-content: center;
+    justify-items: center;
+
+}
+.students .student-item{
+    width: 31.33%;
+    margin-bottom: 10px;
+    border: 0px solid #c91d1d;
+    background: whitesmoke;
+    margin-left: 6px;
+    border-radius: 9px;
+    
+}
+.students .img{
+    display: flex;
+    justify-content: start;
+    
+}
+.students .student-item img{
+    width: 100px;
+    height: 100px; 
+    border-radius: 50px;
+}
+/* table */
+.phone-book{
+    width: 700px;
+}
+table{
+    width: 700px;
+    text-align: center;
+}
+thead{
+    background: aquamarine;
+    font-size: 23px;    
+    text-transform: uppercase;
+}
+tbody tr td img{
+    width: 30px;
+}
+tbody:nth-child(odd){
+    background-color: rgba(229, 235, 229, 0.589);
+    
+}
